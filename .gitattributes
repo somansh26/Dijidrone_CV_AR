@@ -1,0 +1,5 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+ctest filter=lfs diff=lfs merge=lfs -text
+cpack filter=lfs diff=lfs merge=lfs -text
